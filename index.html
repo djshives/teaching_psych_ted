@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/column.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown
+						 data-separator="---"
+						 data-separator-vertical=">>>">
+					<script type="text/template">
+						<!-- .slide: data-transition="fade-out" -->
+						### Three Ways to Make Better Decisions 
+						#### By Thinking Like a Computer <!-- .element: style="color: #5fb3e3" -->
+						>>>
+						<!-- .slide: data-transition="fade-in fade-out" -->
+						### ~~Three~~ Ways to Make Better Decisions
+						#### By Thinking Like a Computer <!-- .element: style="color:#5fb3e3" -->
+						>>>
+						<!-- .slide: data-transition="fade-in" -->
+						### Four Ways to Make Better Decisions
+						#### By Thinking Like a Computer <!-- .element: style="color:#5fb3e3" -->
+						---
+						### Bombshelter!
+						The bomb has been dropped and civilization has ended. 
+						
+						Each group consists of a doctor, scientist, politician, home maker, and artist. 
+						
+						>>>
+						### Bombshelter!
+						Only 2 of you can stay in the bunker and the other 3 have to brave the metropolitan wasteland.
+
+						You have 7 minutes to decide who stays and who goes. Each role within each group has 1 minute to make their case. After each role has went, take 2 minutes to decide together who stays and who goes.
+						>>>
+						<!-- .slide: data-background-iframe="https://stagetimer.io/r/3R89LU8D/controller/"; data-background-interactive -->
+						>>>
+						### Who got the ax?
+						---
+						<!-- .slide: style="text-align:left" -->
+						### Many Decision Making Frameworks
+						- Analytical <!-- .element: class="fragment fade-in" -->
+						- Command <!-- .element: class="fragment fade-in" -->
+						- Collaborative <!-- .element: class="fragment fade-in" -->
+						- Expertise <!-- .element: class="fragment fade-in" -->
+						- Consensus <!-- .element: class="fragment fade-in" -->
+						- Random choice <!-- .element: class="fragment fade-in" -->
+						- Vote <!-- .element: class="fragment fade-in" -->
+						- etc...we have to simplify <!-- .element: class="fragment fade-in"; style="color:#f29b05" -->
+						>>>
+						<!-- .slide: style="text-align:left" -->
+						### Think Like a Computer
+						1. Understand the explore/exploit trade-off. <!-- .element: class="fragment fade-in" -->
+						2. Manage memory and resources efficiently. <!-- .element: class="fragment fade-in" -->
+						3. Simplify assumptions and remove constraints. <!-- .element: class="fragment fade-in" -->
+						4. Chooose the best process, not the perfect process. <!-- .element: class="fragment fade-in" -->
+						>>>
+						<img data-src="assets/spock.jpg">
+						---
+						### Thank you!
+
+
+
+
+						
+
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+
+		<script>
+			// More info about initialization & config:`
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ]
+			});
+		</script>
+	</body>
+</html>
